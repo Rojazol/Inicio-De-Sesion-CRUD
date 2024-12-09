@@ -1,0 +1,224 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #52769b; /* Fondo claro */
+    color: #333; /* Color de texto oscuro */
+}
+ 
+.card.card-body {
+    background-color: #e0c6a0; /* Color de fondo */
+    color: #ffffff; /* Texto en blanco para mejor contraste */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la card */
+    padding: 20px;
+}
+ 
+/* Estilo para los encabezados */
+h3, h2 {
+    color: #000000; /* Celeste oscuro para los títulos */
+}
+
+/* Estilo de contenedor */
+.container {
+    max-width: 1140px;  /* Ancho máximo similar a Bootstrap */
+    margin: 0 auto;     /* Centrar el contenedor */
+    padding: 0 15px;    /* Padding lateral */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    background-color: #52769b;
+}
+
+/* Clase de padding (p-4) */
+.p-4 {
+    padding: 1.5rem; /* Espaciado equivalente a 4 en Bootstrap (aproximadamente 24px) */
+}
+
+
+
+/* Fondo para las tarjetas */
+.card {
+    background-color: #e0c6a0; /* Fondo blanco para las tarjetas */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.2); /* Sombra suave */
+}
+
+/* Botones */
+.btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745; /* Verde para el botón de guardar */
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Un verde más oscuro en hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gris para editar */
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo para el botón de eliminar */
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+
+/* Botones con íconos */
+.fas {
+    margin-right: 5px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40; /* Fondo negro para el pie de página */
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer h5 {
+    color: #f1c40f; /* Amarillo para los encabezados en el pie */
+}
+
+footer p {
+    color: #ccc; /* Color más suave para el texto */
+}
+
+/* Enlaces en el footer */
+footer a {
+    color: #f1c40f; /* Amarillo para los enlaces */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #f39c12; /* Amarillo más oscuro en hover */
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0066cc; /* Celeste para los encabezados de la tabla */
+    color: white;
+}
+
+/* Estilos para hacer que la tabla sea responsiva */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Estilo para los formularios */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #0066cc; /* Celeste para el borde cuando están en foco */
+    outline: none;
+}
+
+/* Alertas */
+.alert {
+    background-color: #ffc107; /* Amarillo para las alertas */
+    color: #212529;
+}
+
+.alert-warning {
+    background-color: #ff9800; /* Amarillo más fuerte */
+}
+
+/* Estilos para los contenedores */
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el buscador */
+input[name="apellido"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estilo para el ícono de la lupa */
+button i.fas {
+    margin-right: 5px;
+}
+
+/* Estilo para el texto de la tarjeta */
+.card-body p {
+    color: #333; /* Color de texto dentro de las tarjetas */
+}
+
+/* Añadir algunos márgenes */
+.mt-5 {
+    margin-top: 40px;
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+/* Reducir el tamaño de los íconos dentro de los botones */
+.btn i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+    font-size: 16px; /* Tamaño del ícono */
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;  /* Fondo oscuro */
+    color: white;            /* Texto blanco */
+    padding: 20px;           /* Espaciado interno */
+    text-align: center;      /* Centrado del texto */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;            /* Color blanco para los enlaces */
+    text-decoration: none;  /* Quitar subrayado */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Subrayado al pasar el ratón */
+}
